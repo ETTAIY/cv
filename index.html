@@ -56,12 +56,18 @@
 		<h1>langues</h1>
 		    <ul> 
 					<li>Francais <div id="p1" class="mdl-progress mdl-js-progress"></div> </li>
-					<li>Anglais</li> 
+					<li>Anglais <div id="p2" class="mdl-progress mdl-js-progress"></div></li> 
 			</ul>
 			<!-- Simple MDL Progress Bar -->
             <script>
             document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
-            this.MaterialProgress.setProgress(80);
+            this.MaterialProgress.setProgress(90);
+            });
+            </script>
+            <!-- Simple MDL Progress Bar -->
+            <script>
+            document.querySelector('#p2').addEventListener('mdl-componentupgraded', function() {
+            this.MaterialProgress.setProgress(75);
             });
             </script>
 	</body>
