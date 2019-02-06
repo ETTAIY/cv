@@ -2,17 +2,49 @@
 	text-align: center;
 }
 
+.info{
+	
+	font-weight :bold;
+	font-size: 20 px;
+	margin-left: 100px;
+}
+
 .titre{
-	color:blue;
+	color:#3388DD;
 	text-align: center;
 }
 
 
 .formation{
-	color:blue;
-	text-align: left;
+	color:#3388DD;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px solid #3388DD;
 }
+.for{
+	
+	
+	font-size: 20 px;
+	margin-left: 100px;
+}
+
 .expérience{
-	color:blue;
-	text-align: left;
+	color:#3388DD;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px solid #3388DD;
+}
+
+.DOMAINES{
+	color:#3388DD;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px solid #3388DD;
+}
+
+.langues{
+	color:#3388DD;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px solid #3388DD;
 }
