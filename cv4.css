@@ -1,0 +1,57 @@
+.div-titre{
+	text-align: center;
+}
+
+.info{
+	
+	font-weight :bold;
+	font-size: 20 px;
+	margin-left: 100px;
+}
+
+.titre{
+	color:#3388DD;
+	text-align: center;
+}
+
+
+.formation{
+	color:#3388DD;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px solid #3388DD;
+}
+.for{
+	
+	
+	font-size: 20 px;
+	margin-left: 100px;
+}
+
+.expérience{
+	color:#3388DD;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px solid #3388DD;
+}
+
+.DOMAINES{
+	color:#3388DD;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px solid #3388DD;
+}
+
+.langues{
+	color:#3388DD;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px solid #3388DD;
+}
+.mdl-slider__container {
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
